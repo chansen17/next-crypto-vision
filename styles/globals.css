@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-50;
+  }
+
+  .mxw {
+    @apply max-w-[1640px] mx-auto px-5 md:px-10;
+  }
+
+  .mxw-sm {
+    @apply container mx-auto px-5 md:px-10;
+  }
+}
